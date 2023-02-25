@@ -1,10 +1,16 @@
 import { Component } from '@angular/core';
 
+interface teste {
+
+}
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-tour-of-heroes';
+  title = 'Minha Primeira Aplicação Angular';
+  
+
 }

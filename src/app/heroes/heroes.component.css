@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+li{
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+a {
+    border-radius: 10px;
+    display: flex;
+    gap: 8px;
+    width: 300px;
+    align-items: center;
+    background: #ccc;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background: black;
+    color: white;
+    cursor: poiter;
+}
+
+.badge {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+}
+
+.badge:hover {
+    background-color: blue;
+}
+
